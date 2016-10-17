@@ -1,0 +1,44 @@
+//homepage.scss
+
+@import "layout/oeuvres";
+
+.site {
+    margin: 0;
+}
+
+.infos_slide{
+	text-align: right;
+    margin-right: 4%;
+    margin-top: -35px;
+    p{
+    	font-family: Verdana;
+    	font-size: 0.75rem;
+    	display: inline;
+    	padding: 5px;
+    	color: $white;
+    	background-color: $grey;
+    	opacity: 0.6;
+    	&:hover{
+    		opacity: 1;
+    	}
+    }
+}
+
+.flexslider{
+	border-top: 1px solid $grey_light_one;
+	border-bottom: 1px solid $grey_light_one;
+	.flex-viewport{
+		height: 425px;
+	}
+	ul.slides{
+		.image-slide{
+			height: 425px;
+			background-size: cover;
+			background-position: center;
+		}
+	}
+}
+
+.flex-control-nav {
+	display: none;
+}

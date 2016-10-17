@@ -1,0 +1,39 @@
+// ========================
+//_core.scss
+// ========================
+
+:root {
+	font-size: 16px;
+}
+
+@font-face {
+  font-family: 'GothamRounded-Book';
+  src: 	url('fonts/GothamRounded-Book/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),  
+  		url('fonts/GothamRounded-Book/GothamRounded-Book.otf')  format('opentype'),
+	    url('fonts/GothamRounded-Book/GothamRounded-Book.woff') format('woff'), 
+	    url('fonts/GothamRounded-Book/GothamRounded-Book.ttf')  format('truetype'), 
+	    url('fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: 	url('fonts/OpenSans/OpenSans.eot?#iefix') format('embedded-opentype'),  
+  		url('fonts/OpenSans/OpenSans.woff') format('woff'), 
+  		url('fonts/OpenSans/OpenSans.ttf')  format('truetype'), 
+  		url('fonts/OpenSans/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Oxygen-Regular';
+  src: url('fonts/Oxygen-Regular/Oxygen-Regular.eot?#iefix') format('embedded-opentype'),  
+      url('fonts/Oxygen-Regular/Oxygen-Regular.woff') format('woff'), 
+      url('fonts/Oxygen-Regular/Oxygen-Regular.ttf')  format('truetype'), 
+      url('fonts/Oxygen-Regular/Oxygen-Regular.svg#Oxygen-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

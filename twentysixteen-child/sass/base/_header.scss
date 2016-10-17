@@ -1,0 +1,11 @@
+//_header.scss
+
+.site-header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	.site-title a{
+		text-transform: uppercase;
+		font-family: 'Oxygen-Regular'!important;
+		font-size: 2.375rem;
+	}
+}

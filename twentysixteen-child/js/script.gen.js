@@ -1,0 +1,1 @@
+!function(a){window.onload=function(){window.jQuery?(console.log("jQuery is loaded !"),a(".flexslider").flexslider({animation:"slide"})):console.log("jQuery doesn't Work")}}(jQuery);

@@ -1,0 +1,25 @@
+//_base.scss
+
+body{
+	background-color: #FFFFFF;
+	&:before{
+		display: none;
+	}
+	.site-inner{
+		margin: 0;
+		max-width: none;
+		width: 100%;
+	}
+
+}
+.site-content{
+	padding: 0;
+}
+
+.entry-header{
+	h1.entry-title{
+		display: none;
+	}
+}
+
+
