@@ -22,6 +22,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Oxygen-Bold';
+  src: url("Oxygen-Bold.eot?#iefix") format("embedded-opentype"), url("Oxygen-Bold.woff") format("woff"), url("Oxygen-Bold.ttf") format("truetype"), url("Oxygen-Bold.svg#Oxygen-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Antic-Regular';
+  src: url("fonts/Antic-Regular/Antic-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Antic-Regular/Antic-Regular.woff") format("woff"), url("fonts/Antic-Regular/Antic-Regular.ttf") format("truetype"), url("fonts/Antic-Regular/Antic-Regular.svg#Antic-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LucidaSansUnicode';
+  src: url("LucidaSansUnicode.eot?#iefix") format("embedded-opentype"), url("LucidaSansUnicode.woff") format("woff"), url("LucidaSansUnicode.ttf") format("truetype"), url("LucidaSansUnicode.svg#LucidaSansUnicode") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /*
 Theme Name: Twenty Sixteen
 Theme URI: https://wordpress.org/themes/twentysixteen/
@@ -4515,16 +4533,67 @@ body .site-inner {
   display: none;
 }
 
+/* line 27, sass/base/_base.scss */
+.entry-content p {
+  font-family: "Antic-Regular";
+  font-size: 1.625rem;
+  line-height: 2.25rem;
+  text-align: justify;
+}
+
 /* line 3, sass/base/_header.scss */
+header#masthead {
+  padding-left: 0;
+}
+/* line 6, sass/base/_header.scss */
+header#masthead .site-header-main .site-branding {
+  padding-left: 5.25em;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+/* line 10, sass/base/_header.scss */
+header#masthead .site-header-main .site-branding .site-description {
+  text-transform: uppercase;
+  font-family: "Oxygen-Regular";
+  font-size: 0.9375rem;
+  letter-spacing: 2px;
+}
+
+/* line 20, sass/base/_header.scss */
 .site-header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 6, sass/base/_header.scss */
+/* line 23, sass/base/_header.scss */
 .site-header .site-title a {
   text-transform: uppercase;
-  font-family: "Oxygen-Regular" !important;
+  font-family: "Oxygen-Regular";
   font-size: 2.375rem;
+}
+
+/* line 30, sass/base/_header.scss */
+#site-header-menu {
+  width: 100%;
+  border-bottom: 2px solid #007364;
+  margin-right: 5.25em;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+/* line 36, sass/base/_header.scss */
+#site-header-menu #site-navigation {
+  float: right;
+}
+
+/* line 41, sass/base/_header.scss */
+#menu-menuprincipal {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+/* line 44, sass/base/_header.scss */
+#menu-menuprincipal li {
+  text-transform: uppercase;
+  font-family: "Oxygen-Regular";
+  font-size: 1.125rem;
 }
 
 /* line 3, sass/base/_footer.scss */
@@ -4907,7 +4976,7 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   background-color: #000000;
   width: 100%;
-  padding: 20px 20px;
+  padding: 120px 20px;
 }
 
 /* line 12, sass/layout/_oeuvres.scss */
@@ -4933,12 +5002,11 @@ html[xmlns] .flexslider .slides {
 }
 /* line 31, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box h2 {
-  font-family: Montserrat, "Helvetica Neue", sans-serif;
-  font-size: 1.25rem;
-  text-transform: uppercase;
+  font-family: "LucidaSansUnicode";
+  font-size: 1.375rem;
   margin-top: 10px;
   text-align: center;
-  color: #FFFFFF;
+  color: #18a1ba;
 }
 /* line 38, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box h2 a {
@@ -4946,10 +5014,10 @@ html[xmlns] .flexslider .slides {
 }
 /* line 46, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box .oeuvre-box-date p {
-  font-family: Montserrat, "Helvetica Neue", sans-serif;
-  color: #474747;
+  font-family: "Oxygen-Bold";
+  font-size: 1.3125rem;
+  color: #a5a7a5;
   text-align: center;
-  color: #FFFFFF;
 }
 /* line 53, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box .oeuvre-box-resume {
