@@ -438,19 +438,26 @@ add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
  *
  */
 add_action('init', 'create_post_type');
- function create_post_type() {
-	register_post_type('oeuvres',
-		array(
-			'labels' => array(
-				'name' => __('Oeuvres'),
-				'singular_name' => __('Oeuvre'),
-			),
-			'public' => true,
-			'has_archive' => true,
-		)
-	);
- }
+function create_post_type() {
+register_post_type('oeuvres',
+	array(
+		'labels' => array(
+			'name' => __('Oeuvres'),
+			'singular_name' => __('Oeuvre'),
+		),
+		'public' => true,
+		'has_archive' => true,
+	)
+);
+}
 
-
+/**
+ * register menus
+ *
+ */
+add_action( 'after_setup_theme', 'register_my_menu' );
+function register_my_menu() {
+  register_nav_menu( 'textmenu', __( 'Menu textes', 'technoromanticism' ) );
+}
 
 
