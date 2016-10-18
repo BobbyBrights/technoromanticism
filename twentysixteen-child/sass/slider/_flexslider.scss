@@ -130,7 +130,7 @@ html[xmlns] .flexslider .slides {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: $grey_light_one;
+  //background-color: $grey_light_one;
   color: $black;
 }
 .flex-direction-nav a:before {
@@ -139,22 +139,36 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   /*content: '\f001';*/
 
-  height: 55px;
-  width: 40px;
-  
+  height: 27px;
+  width: 35px;
   position: relative;
   top: -15;
   left: -5;
 
-    content: '\274c';
-    color: $black!important;
+  //content: '\274c';
+  color: $black!important;
+  content: "";
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  transform: rotate(-45deg);
+  margin-left: 15px;
+  margin-bottom: 15px;
 
   /*color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
 }
 .flex-direction-nav a.flex-next:before {
   content: '\274c';
-  color: $black;
+  content: "";
+  color: $black!important;
+  content: "";
+  border-top: 3px solid black;
+  border-left: none;
+  border-right: 3px solid black;
+  transform: rotate(45deg);
+  margin-left: 0;
+  margin-right: 30px;
+  margin-bottom: 15px;
 }
 .flex-direction-nav .flex-prev {
   left: -50px;

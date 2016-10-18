@@ -4536,8 +4536,8 @@ body .site-inner {
 /* line 27, sass/base/_base.scss */
 .entry-content p {
   font-family: "Antic-Regular";
-  font-size: 1.625rem;
-  line-height: 2.25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -4767,7 +4767,6 @@ html[xmlns] .flexslider .slides {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #bdb8b8;
   color: #000000;
 }
 
@@ -4777,57 +4776,71 @@ html[xmlns] .flexslider .slides {
   font-size: 38px;
   display: inline-block;
   /*content: '\f001';*/
-  height: 55px;
-  width: 40px;
+  height: 27px;
+  width: 35px;
   position: relative;
   top: -15;
   left: -5;
-  content: '\274c';
   color: #000000 !important;
+  content: "";
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  transform: rotate(-45deg);
+  margin-left: 15px;
+  margin-bottom: 15px;
   /*color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
 }
 
-/* line 155, sass/slider/_flexslider.scss */
+/* line 160, sass/slider/_flexslider.scss */
 .flex-direction-nav a.flex-next:before {
   content: '\274c';
-  color: #000000;
+  content: "";
+  color: #000000 !important;
+  content: "";
+  border-top: 3px solid black;
+  border-left: none;
+  border-right: 3px solid black;
+  transform: rotate(45deg);
+  margin-left: 0;
+  margin-right: 30px;
+  margin-bottom: 15px;
 }
 
-/* line 159, sass/slider/_flexslider.scss */
+/* line 173, sass/slider/_flexslider.scss */
 .flex-direction-nav .flex-prev {
   left: -50px;
 }
 
-/* line 162, sass/slider/_flexslider.scss */
+/* line 176, sass/slider/_flexslider.scss */
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
 
-/* line 166, sass/slider/_flexslider.scss */
+/* line 180, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 
-/* line 170, sass/slider/_flexslider.scss */
+/* line 184, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
 }
 
-/* line 173, sass/slider/_flexslider.scss */
+/* line 187, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
   right: 10px;
 }
 
-/* line 177, sass/slider/_flexslider.scss */
+/* line 191, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
 }
 
-/* line 180, sass/slider/_flexslider.scss */
+/* line 194, sass/slider/_flexslider.scss */
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
@@ -4835,7 +4848,7 @@ html[xmlns] .flexslider .slides {
   z-index: -1;
 }
 
-/* line 186, sass/slider/_flexslider.scss */
+/* line 200, sass/slider/_flexslider.scss */
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -4850,7 +4863,7 @@ html[xmlns] .flexslider .slides {
   color: #000;
 }
 
-/* line 199, sass/slider/_flexslider.scss */
+/* line 213, sass/slider/_flexslider.scss */
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
@@ -4858,17 +4871,17 @@ html[xmlns] .flexslider .slides {
   content: '\f004';
 }
 
-/* line 205, sass/slider/_flexslider.scss */
+/* line 219, sass/slider/_flexslider.scss */
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 
-/* line 208, sass/slider/_flexslider.scss */
+/* line 222, sass/slider/_flexslider.scss */
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
 }
 
-/* line 211, sass/slider/_flexslider.scss */
+/* line 225, sass/slider/_flexslider.scss */
 .flex-control-nav {
   width: 100%;
   position: absolute;
@@ -4876,7 +4889,7 @@ html[xmlns] .flexslider .slides {
   text-align: center;
 }
 
-/* line 217, sass/slider/_flexslider.scss */
+/* line 231, sass/slider/_flexslider.scss */
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
@@ -4884,7 +4897,7 @@ html[xmlns] .flexslider .slides {
   *display: inline;
 }
 
-/* line 223, sass/slider/_flexslider.scss */
+/* line 237, sass/slider/_flexslider.scss */
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -4902,34 +4915,34 @@ html[xmlns] .flexslider .slides {
   border-radius: 20px;
 }
 
-/* line 239, sass/slider/_flexslider.scss */
+/* line 253, sass/slider/_flexslider.scss */
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 243, sass/slider/_flexslider.scss */
+/* line 257, sass/slider/_flexslider.scss */
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
 
-/* line 248, sass/slider/_flexslider.scss */
+/* line 262, sass/slider/_flexslider.scss */
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden;
 }
 
-/* line 253, sass/slider/_flexslider.scss */
+/* line 267, sass/slider/_flexslider.scss */
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0;
 }
 
-/* line 258, sass/slider/_flexslider.scss */
+/* line 272, sass/slider/_flexslider.scss */
 .flex-control-thumbs img {
   width: 100%;
   height: auto;
@@ -4944,12 +4957,12 @@ html[xmlns] .flexslider .slides {
   transition: all 1s ease;
 }
 
-/* line 271, sass/slider/_flexslider.scss */
+/* line 285, sass/slider/_flexslider.scss */
 .flex-control-thumbs img:hover {
   opacity: 1;
 }
 
-/* line 274, sass/slider/_flexslider.scss */
+/* line 288, sass/slider/_flexslider.scss */
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
@@ -4959,13 +4972,13 @@ html[xmlns] .flexslider .slides {
  * RESPONSIVE
  * ====================================================================================================================*/
 @media screen and (max-width: 860px) {
-  /* line 282, sass/slider/_flexslider.scss */
+  /* line 296, sass/slider/_flexslider.scss */
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
   }
 
-  /* line 286, sass/slider/_flexslider.scss */
+  /* line 300, sass/slider/_flexslider.scss */
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
@@ -5078,8 +5091,7 @@ html[xmlns] .flexslider .slides {
   font-size: 0.75rem;
   display: inline;
   padding: 5px;
-  color: #FFFFFF;
-  background-color: #757575;
+  color: #000000;
   opacity: 0.6;
 }
 /* line 21, sass/layout/_homepage.scss */
