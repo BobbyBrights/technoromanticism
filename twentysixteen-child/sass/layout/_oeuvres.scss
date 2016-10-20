@@ -6,7 +6,7 @@
 	display: inline-block;
 	background-color: #000000;
 	width: 100%;
-	padding: 120px 20px;
+	padding: 120px 0;
 }
 
 .technoromanticism-content{
@@ -16,6 +16,15 @@
 	max-width: $content_width;
 	margin-right: auto; 
     margin-left: auto; 
+    @media (max-width: 1240px){
+    	max-width: 900px;
+    }
+    @media (max-width: 935px){
+    	max-width: 600px;
+    }
+    @media (max-width: 640px){
+    	max-width: 275px;
+    }
 }
 
 .site-content{
@@ -54,6 +63,10 @@
     		font-family: $opensans;
     		font-size: 1.25rem;
     		color: $grey_dark;
+    	}
+    	@media (max-width: 640px){
+    		margin-left: 0;
+    		margin-right: 0;
     	}
 	}
 	.oeuvre-thumbnail{

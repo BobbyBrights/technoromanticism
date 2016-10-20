@@ -4559,20 +4559,65 @@ header#masthead .site-header-main .site-branding .site-description {
   font-size: 0.9375rem;
   letter-spacing: 2px;
 }
+@media (max-width: 910px) {
+  /* line 20, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding {
+    padding-top: 0;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 710px) {
+  /* line 28, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding {
+    margin-bottom: 20px;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 600px) {
+  /* line 36, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding {
+    padding-left: 5%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 3, sass/base/_header.scss */
+  header#masthead {
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+  /* line 45, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding {
+    margin-bottom: 15px;
+  }
+  /* line 47, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding .site-title a {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 420px) {
+  /* line 55, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding {
+    padding-left: 8%;
+  }
+  /* line 57, sass/base/_header.scss */
+  header#masthead .site-header-main .site-branding .site-title a {
+    font-size: 1.5rem;
+  }
+}
 
-/* line 20, sass/base/_header.scss */
+/* line 65, sass/base/_header.scss */
 .site-header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 23, sass/base/_header.scss */
+/* line 68, sass/base/_header.scss */
 .site-header .site-title a {
   text-transform: uppercase;
   font-family: "Oxygen-Regular";
   font-size: 2.375rem;
 }
 
-/* line 30, sass/base/_header.scss */
+/* line 75, sass/base/_header.scss */
 #site-header-menu {
   width: 100%;
   border-bottom: 2px solid #007364;
@@ -4580,17 +4625,17 @@ header#masthead .site-header-main .site-branding .site-description {
   margin-top: 0;
   margin-bottom: 60px;
 }
-/* line 36, sass/base/_header.scss */
+/* line 81, sass/base/_header.scss */
 #site-header-menu #site-navigation {
   float: right;
 }
 
-/* line 41, sass/base/_header.scss */
+/* line 86, sass/base/_header.scss */
 #menu-menuprincipal {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-/* line 44, sass/base/_header.scss */
+/* line 89, sass/base/_header.scss */
 #menu-menuprincipal li {
   text-transform: uppercase;
   font-family: "Oxygen-Regular";
@@ -4990,7 +5035,7 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   background-color: #000000;
   width: 100%;
-  padding: 120px 20px;
+  padding: 120px 0;
 }
 
 /* line 12, sass/layout/_oeuvres.scss */
@@ -5003,8 +5048,26 @@ html[xmlns] .flexslider .slides {
 .technoromanticism-content p {
   text-align: justify;
 }
+@media (max-width: 1240px) {
+  /* line 12, sass/layout/_oeuvres.scss */
+  .technoromanticism-content {
+    max-width: 900px;
+  }
+}
+@media (max-width: 935px) {
+  /* line 12, sass/layout/_oeuvres.scss */
+  .technoromanticism-content {
+    max-width: 600px;
+  }
+}
+@media (max-width: 640px) {
+  /* line 12, sass/layout/_oeuvres.scss */
+  .technoromanticism-content {
+    max-width: 275px;
+  }
+}
 
-/* line 22, sass/layout/_oeuvres.scss */
+/* line 31, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box {
   max-width: 275px;
   min-height: 380px;
@@ -5014,7 +5077,7 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   float: left;
 }
-/* line 31, sass/layout/_oeuvres.scss */
+/* line 40, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box h2 {
   font-family: "LucidaSansUnicode", Arial, sans-serif;
   font-size: 1.25rem;
@@ -5022,29 +5085,36 @@ html[xmlns] .flexslider .slides {
   text-align: center;
   color: #18a1ba;
 }
-/* line 38, sass/layout/_oeuvres.scss */
+/* line 47, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box h2 a {
   text-decoration: none !important;
 }
-/* line 46, sass/layout/_oeuvres.scss */
+/* line 55, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box .oeuvre-box-date p {
   font-family: "Oxygen-Bold";
   font-size: 1rem;
   color: #a5a7a5;
   text-align: center;
 }
-/* line 53, sass/layout/_oeuvres.scss */
+/* line 62, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box .oeuvre-box-resume {
   font-family: "OpenSans";
   font-size: 1.25rem;
   color: #666666;
 }
-/* line 59, sass/layout/_oeuvres.scss */
+@media (max-width: 640px) {
+  /* line 31, sass/layout/_oeuvres.scss */
+  .site-content .oeuvre-box {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 72, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-thumbnail {
   position: relative;
   max-width: 280px;
 }
-/* line 66, sass/layout/_oeuvres.scss */
+/* line 79, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-thumbnail .resume {
   position: absolute;
   top: 0;
@@ -5054,7 +5124,7 @@ html[xmlns] .flexslider .slides {
   background-color: #FFFFFF;
   opacity: 0;
 }
-/* line 74, sass/layout/_oeuvres.scss */
+/* line 87, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-thumbnail .resume p {
   font-family: "LucidaSansUnicode", Arial, sans-serif;
   font-size: 1rem;
@@ -5062,28 +5132,28 @@ html[xmlns] .flexslider .slides {
   text-align: left;
 }
 
-/* line 85, sass/layout/_oeuvres.scss */
+/* line 98, sass/layout/_oeuvres.scss */
 .post-oeuvre h2 {
   text-transform: uppercase;
   font-family: "GothamRounded-Book";
 }
-/* line 89, sass/layout/_oeuvres.scss */
+/* line 102, sass/layout/_oeuvres.scss */
 .post-oeuvre .oeuvre-thumbnail {
   max-width: 200px;
   float: left;
 }
-/* line 92, sass/layout/_oeuvres.scss */
+/* line 105, sass/layout/_oeuvres.scss */
 .post-oeuvre .oeuvre-thumbnail:hover {
   opacity: 1;
 }
-/* line 96, sass/layout/_oeuvres.scss */
+/* line 109, sass/layout/_oeuvres.scss */
 .post-oeuvre .post-oeuvre-box {
   display: inline-block;
   position: relative;
   border: 1px solid #CCCCCC;
   padding: 10px;
 }
-/* line 102, sass/layout/_oeuvres.scss */
+/* line 115, sass/layout/_oeuvres.scss */
 .post-oeuvre .post-oeuvre-box .post-oeuvre-resume {
   width: 78%;
   float: right;
