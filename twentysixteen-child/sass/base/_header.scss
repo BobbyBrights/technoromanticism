@@ -12,6 +12,7 @@ header#masthead{
 				font-family: $oxygen;
 				font-size: 	0.9375rem;
 				letter-spacing: 2px;
+				color: $grey;
 			}
 		}
 	}
@@ -74,7 +75,7 @@ header#masthead{
 
 #site-header-menu{
 	width: 100%;
-	border-bottom: 2px solid $grey_home;
+	border-bottom: 2px solid $grey_light;
 	margin-right: 5.25em;
 	margin-top: 0;
 	margin-bottom: 60px;

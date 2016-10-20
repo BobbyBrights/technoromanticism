@@ -4558,23 +4558,24 @@ header#masthead .site-header-main .site-branding .site-description {
   font-family: "Oxygen-Regular";
   font-size: 0.9375rem;
   letter-spacing: 2px;
+  color: #757575;
 }
 @media (max-width: 910px) {
-  /* line 20, sass/base/_header.scss */
+  /* line 21, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding {
     padding-top: 0;
     margin-bottom: 30px;
   }
 }
 @media (max-width: 710px) {
-  /* line 28, sass/base/_header.scss */
+  /* line 29, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding {
     margin-bottom: 20px;
     padding-left: 10%;
   }
 }
 @media (max-width: 600px) {
-  /* line 36, sass/base/_header.scss */
+  /* line 37, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding {
     padding-left: 5%;
   }
@@ -4585,57 +4586,57 @@ header#masthead .site-header-main .site-branding .site-description {
     padding-top: 0;
     padding-bottom: 0px;
   }
-  /* line 45, sass/base/_header.scss */
+  /* line 46, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding {
     margin-bottom: 15px;
   }
-  /* line 47, sass/base/_header.scss */
+  /* line 48, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding .site-title a {
     font-size: 1.75rem;
   }
 }
 @media (max-width: 420px) {
-  /* line 55, sass/base/_header.scss */
+  /* line 56, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding {
     padding-left: 8%;
   }
-  /* line 57, sass/base/_header.scss */
+  /* line 58, sass/base/_header.scss */
   header#masthead .site-header-main .site-branding .site-title a {
     font-size: 1.5rem;
   }
 }
 
-/* line 65, sass/base/_header.scss */
+/* line 66, sass/base/_header.scss */
 .site-header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 68, sass/base/_header.scss */
+/* line 69, sass/base/_header.scss */
 .site-header .site-title a {
   text-transform: uppercase;
   font-family: "Oxygen-Regular";
   font-size: 2.375rem;
 }
 
-/* line 75, sass/base/_header.scss */
+/* line 76, sass/base/_header.scss */
 #site-header-menu {
   width: 100%;
-  border-bottom: 2px solid #007364;
+  border-bottom: 2px solid #848484;
   margin-right: 5.25em;
   margin-top: 0;
   margin-bottom: 60px;
 }
-/* line 81, sass/base/_header.scss */
+/* line 82, sass/base/_header.scss */
 #site-header-menu #site-navigation {
   float: right;
 }
 
-/* line 86, sass/base/_header.scss */
+/* line 87, sass/base/_header.scss */
 #menu-menuprincipal {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-/* line 89, sass/base/_header.scss */
+/* line 90, sass/base/_header.scss */
 #menu-menuprincipal li {
   text-transform: uppercase;
   font-family: "Oxygen-Regular";
