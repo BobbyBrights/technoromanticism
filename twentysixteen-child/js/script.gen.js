@@ -1,1 +1,1 @@
-!function(a){window.onload=function(){window.jQuery?(console.log("jQuery is loaded !"),a(".flexslider").flexslider({animation:"slide"})):console.log("jQuery doesn't Work")}}(jQuery);
+!function(a){window.onload=function(){window.jQuery?(console.log("jQuery is loaded !"),a(".flexslider").flexslider({animation:"slide"})):console.log("jQuery doesn't Work")}}(jQuery),function(a){a(".oeuvre-box .oeuvre-thumbnail").hover(function(){a(this).find(".resume").animate({opacity:.7},500)},function(){a(this).find(".resume").animate({opacity:0},500)})}(jQuery);

@@ -139,21 +139,20 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   /*content: '\f001';*/
 
-  height: 27px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   position: relative;
-  top: -15;
-  left: -5;
+  top: 12px;
+  left: -5px;
 
   //content: '\274c';
   color: $black!important;
   content: "";
-  border-top: 3px solid black;
-  border-left: 3px solid black;
+  border-top: 3px solid $grey_light_one;
+  border-left: 3px solid $grey_light_one;
   transform: rotate(-45deg);
   margin-left: 15px;
   margin-bottom: 15px;
-
   /*color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
 }
@@ -162,9 +161,9 @@ html[xmlns] .flexslider .slides {
   content: "";
   color: $black!important;
   content: "";
-  border-top: 3px solid black;
+  border-top: 3px solid $grey_light_one;
   border-left: none;
-  border-right: 3px solid black;
+  border-right: 3px solid $grey_light_one;
   transform: rotate(45deg);
   margin-left: 0;
   margin-right: 30px;

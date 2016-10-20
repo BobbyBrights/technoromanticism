@@ -83,10 +83,11 @@ get_header(); ?>
 				{
 					echo "<a href='". $link ."'><div class='oeuvre-thumbnail'>";
 					echo "<img src=' ". $img ." '>";
+					echo "<div class='resume'><p>" . $resume . "</p></div>";
 					echo "</div></a>";
 				}
 
-				echo "<h2>" . $title . "</h2>";
+				echo "<h2>" . mb_strimwidth($title, 0, 25, "...") . "</h2>";
 				echo "<div class='oeuvre-box-date'><p>" . $date_oeuvre  . "</p></div>";
 				//echo $lieu_date  . '<br>';
 				//echo $resume  . '<br>';

@@ -30,7 +30,7 @@
     	float: left;
     	h2{
     		font-family: $lucida;
-    		font-size: 	1.375rem;
+    		font-size: 	1.25rem;
     		//text-transform: uppercase;
     		margin-top: 10px;
     		text-align: center;
@@ -45,7 +45,7 @@
     	.oeuvre-box-date{
     		p{
 	    		font-family: $oxygen_bold;
-	    		font-size: 1.3125rem;
+	    		font-size: 1rem;
 	    		color: $grey_legend;
 	    		text-align: center;
     		}
@@ -57,9 +57,26 @@
     	}
 	}
 	.oeuvre-thumbnail{
+		position: relative;
 		max-width: 280px;
 		&:hover{
-			opacity: 0.8;
+			//opacity: 0.8;
+		}
+
+		.resume{
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 20px;
+			height: 275px;
+			background-color: #FFFFFF;
+			opacity: 0;
+			p{
+				font-family: $lucida;
+				font-size: 1rem;
+				color: $black;
+				text-align: left;
+			}
 		}
 	}
 }

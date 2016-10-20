@@ -30,4 +30,14 @@ $opensans: 'OpenSans';
 $oxygen: 'Oxygen-Regular';
 $oxygen_bold: 'Oxygen-Bold';
 $antic: 'Antic-Regular';
-$lucida: 'LucidaSansUnicode';
+$lucida: "LucidaSansUnicode", Arial, sans-serif;
+
+
+/* Transition prefixes */
+@mixin m-transition($arg1, $arg2:null, $arg3:null) {
+       -moz-transition: $arg1, $arg2, $arg3;
+	     -o-transition: $arg1, $arg2, $arg3;
+	    -ms-transition: $arg1, $arg2, $arg3;
+	-webkit-transition: $arg1, $arg2, $arg3;
+          transition: $arg1, $arg2, $arg3;
+}

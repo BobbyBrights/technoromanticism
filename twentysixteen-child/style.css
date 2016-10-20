@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Transition prefixes */
 /* line 5, sass/core/_core.scss */
 :root {
   font-size: 16px;
@@ -35,7 +36,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'LucidaSansUnicode';
+  font-family: LucidaSansUnicode;
   src: url("LucidaSansUnicode.eot?#iefix") format("embedded-opentype"), url("LucidaSansUnicode.woff") format("woff"), url("LucidaSansUnicode.ttf") format("truetype"), url("LucidaSansUnicode.svg#LucidaSansUnicode") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -4776,15 +4777,15 @@ html[xmlns] .flexslider .slides {
   font-size: 38px;
   display: inline-block;
   /*content: '\f001';*/
-  height: 27px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   position: relative;
-  top: -15;
-  left: -5;
+  top: 12px;
+  left: -5px;
   color: #000000 !important;
   content: "";
-  border-top: 3px solid black;
-  border-left: 3px solid black;
+  border-top: 3px solid #bdb8b8;
+  border-left: 3px solid #bdb8b8;
   transform: rotate(-45deg);
   margin-left: 15px;
   margin-bottom: 15px;
@@ -4792,55 +4793,55 @@ html[xmlns] .flexslider .slides {
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
 }
 
-/* line 160, sass/slider/_flexslider.scss */
+/* line 159, sass/slider/_flexslider.scss */
 .flex-direction-nav a.flex-next:before {
   content: '\274c';
   content: "";
   color: #000000 !important;
   content: "";
-  border-top: 3px solid black;
+  border-top: 3px solid #bdb8b8;
   border-left: none;
-  border-right: 3px solid black;
+  border-right: 3px solid #bdb8b8;
   transform: rotate(45deg);
   margin-left: 0;
   margin-right: 30px;
   margin-bottom: 15px;
 }
 
-/* line 173, sass/slider/_flexslider.scss */
+/* line 172, sass/slider/_flexslider.scss */
 .flex-direction-nav .flex-prev {
   left: -50px;
 }
 
-/* line 176, sass/slider/_flexslider.scss */
+/* line 175, sass/slider/_flexslider.scss */
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
 
-/* line 180, sass/slider/_flexslider.scss */
+/* line 179, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 
-/* line 184, sass/slider/_flexslider.scss */
+/* line 183, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
 }
 
-/* line 187, sass/slider/_flexslider.scss */
+/* line 186, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
   right: 10px;
 }
 
-/* line 191, sass/slider/_flexslider.scss */
+/* line 190, sass/slider/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
 }
 
-/* line 194, sass/slider/_flexslider.scss */
+/* line 193, sass/slider/_flexslider.scss */
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
@@ -4848,7 +4849,7 @@ html[xmlns] .flexslider .slides {
   z-index: -1;
 }
 
-/* line 200, sass/slider/_flexslider.scss */
+/* line 199, sass/slider/_flexslider.scss */
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -4863,7 +4864,7 @@ html[xmlns] .flexslider .slides {
   color: #000;
 }
 
-/* line 213, sass/slider/_flexslider.scss */
+/* line 212, sass/slider/_flexslider.scss */
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
@@ -4871,17 +4872,17 @@ html[xmlns] .flexslider .slides {
   content: '\f004';
 }
 
-/* line 219, sass/slider/_flexslider.scss */
+/* line 218, sass/slider/_flexslider.scss */
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 
-/* line 222, sass/slider/_flexslider.scss */
+/* line 221, sass/slider/_flexslider.scss */
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
 }
 
-/* line 225, sass/slider/_flexslider.scss */
+/* line 224, sass/slider/_flexslider.scss */
 .flex-control-nav {
   width: 100%;
   position: absolute;
@@ -4889,7 +4890,7 @@ html[xmlns] .flexslider .slides {
   text-align: center;
 }
 
-/* line 231, sass/slider/_flexslider.scss */
+/* line 230, sass/slider/_flexslider.scss */
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
@@ -4897,7 +4898,7 @@ html[xmlns] .flexslider .slides {
   *display: inline;
 }
 
-/* line 237, sass/slider/_flexslider.scss */
+/* line 236, sass/slider/_flexslider.scss */
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -4915,34 +4916,34 @@ html[xmlns] .flexslider .slides {
   border-radius: 20px;
 }
 
-/* line 253, sass/slider/_flexslider.scss */
+/* line 252, sass/slider/_flexslider.scss */
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 257, sass/slider/_flexslider.scss */
+/* line 256, sass/slider/_flexslider.scss */
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
 
-/* line 262, sass/slider/_flexslider.scss */
+/* line 261, sass/slider/_flexslider.scss */
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden;
 }
 
-/* line 267, sass/slider/_flexslider.scss */
+/* line 266, sass/slider/_flexslider.scss */
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0;
 }
 
-/* line 272, sass/slider/_flexslider.scss */
+/* line 271, sass/slider/_flexslider.scss */
 .flex-control-thumbs img {
   width: 100%;
   height: auto;
@@ -4957,12 +4958,12 @@ html[xmlns] .flexslider .slides {
   transition: all 1s ease;
 }
 
-/* line 285, sass/slider/_flexslider.scss */
+/* line 284, sass/slider/_flexslider.scss */
 .flex-control-thumbs img:hover {
   opacity: 1;
 }
 
-/* line 288, sass/slider/_flexslider.scss */
+/* line 287, sass/slider/_flexslider.scss */
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
@@ -4972,13 +4973,13 @@ html[xmlns] .flexslider .slides {
  * RESPONSIVE
  * ====================================================================================================================*/
 @media screen and (max-width: 860px) {
-  /* line 296, sass/slider/_flexslider.scss */
+  /* line 295, sass/slider/_flexslider.scss */
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
   }
 
-  /* line 300, sass/slider/_flexslider.scss */
+  /* line 299, sass/slider/_flexslider.scss */
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
@@ -5015,8 +5016,8 @@ html[xmlns] .flexslider .slides {
 }
 /* line 31, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box h2 {
-  font-family: "LucidaSansUnicode";
-  font-size: 1.375rem;
+  font-family: "LucidaSansUnicode", Arial, sans-serif;
+  font-size: 1.25rem;
   margin-top: 10px;
   text-align: center;
   color: #18a1ba;
@@ -5028,7 +5029,7 @@ html[xmlns] .flexslider .slides {
 /* line 46, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-box .oeuvre-box-date p {
   font-family: "Oxygen-Bold";
-  font-size: 1.3125rem;
+  font-size: 1rem;
   color: #a5a7a5;
   text-align: center;
 }
@@ -5040,35 +5041,49 @@ html[xmlns] .flexslider .slides {
 }
 /* line 59, sass/layout/_oeuvres.scss */
 .site-content .oeuvre-thumbnail {
+  position: relative;
   max-width: 280px;
 }
-/* line 61, sass/layout/_oeuvres.scss */
-.site-content .oeuvre-thumbnail:hover {
-  opacity: 0.8;
+/* line 66, sass/layout/_oeuvres.scss */
+.site-content .oeuvre-thumbnail .resume {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  height: 275px;
+  background-color: #FFFFFF;
+  opacity: 0;
+}
+/* line 74, sass/layout/_oeuvres.scss */
+.site-content .oeuvre-thumbnail .resume p {
+  font-family: "LucidaSansUnicode", Arial, sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  text-align: left;
 }
 
-/* line 68, sass/layout/_oeuvres.scss */
+/* line 85, sass/layout/_oeuvres.scss */
 .post-oeuvre h2 {
   text-transform: uppercase;
   font-family: "GothamRounded-Book";
 }
-/* line 72, sass/layout/_oeuvres.scss */
+/* line 89, sass/layout/_oeuvres.scss */
 .post-oeuvre .oeuvre-thumbnail {
   max-width: 200px;
   float: left;
 }
-/* line 75, sass/layout/_oeuvres.scss */
+/* line 92, sass/layout/_oeuvres.scss */
 .post-oeuvre .oeuvre-thumbnail:hover {
   opacity: 1;
 }
-/* line 79, sass/layout/_oeuvres.scss */
+/* line 96, sass/layout/_oeuvres.scss */
 .post-oeuvre .post-oeuvre-box {
   display: inline-block;
   position: relative;
   border: 1px solid #CCCCCC;
   padding: 10px;
 }
-/* line 85, sass/layout/_oeuvres.scss */
+/* line 102, sass/layout/_oeuvres.scss */
 .post-oeuvre .post-oeuvre-box .post-oeuvre-resume {
   width: 78%;
   float: right;
