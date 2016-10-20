@@ -5,7 +5,7 @@ header#masthead{
 	.site-header-main{
 		.site-branding{
 			padding-left: 5.25em;
-			padding-top: 40px;
+			padding-top: 0;
 			margin-bottom: 10px;
 			.site-description{
 				text-transform: uppercase;
@@ -78,7 +78,7 @@ header#masthead{
 	border-bottom: 2px solid $grey_light;
 	margin-right: 5.25em;
 	margin-top: 0;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	#site-navigation{
 		float: right;
 	}
@@ -86,7 +86,7 @@ header#masthead{
 
 #menu-menuprincipal{
 	padding-top: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	li{
 		text-transform: uppercase;
 		font-family: $oxygen;

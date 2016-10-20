@@ -4549,7 +4549,7 @@ header#masthead {
 /* line 6, sass/base/_header.scss */
 header#masthead .site-header-main .site-branding {
   padding-left: 5.25em;
-  padding-top: 40px;
+  padding-top: 0;
   margin-bottom: 10px;
 }
 /* line 10, sass/base/_header.scss */
@@ -4624,7 +4624,7 @@ header#masthead .site-header-main .site-branding .site-description {
   border-bottom: 2px solid #848484;
   margin-right: 5.25em;
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 /* line 82, sass/base/_header.scss */
 #site-header-menu #site-navigation {
@@ -4634,7 +4634,7 @@ header#masthead .site-header-main .site-branding .site-description {
 /* line 87, sass/base/_header.scss */
 #menu-menuprincipal {
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 /* line 90, sass/base/_header.scss */
 #menu-menuprincipal li {
